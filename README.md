@@ -233,6 +233,10 @@ For debugging and maintenance purposes you may want access the containers shell.
 ``bash
 docker exec -it (whatever your container name is) bash
 ``
+for nextcloud maintenance tasks:
+``bash
+docker compose exec --user nginx (whatever your container name is)  bash
+``
 ## Support
 
 These images were built to serve a specific need in a production environment and gradually have had more functionality added based on requests from the community.
